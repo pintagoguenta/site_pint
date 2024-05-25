@@ -1,0 +1,95 @@
+.txt{
+    font-family: 'Poppins';
+    margin: auto;
+    color: white;
+}
+
+.anagrama{
+    margin-top: 10rem;
+    padding: 10px;
+    width: 300px;
+}
+
+.make{
+    margin-top: 10rem;
+    padding: 10px;
+    width: 200px;
+}
+
+.palavras{
+    margin-top: 10rem;
+    padding: 10px;
+    width: 300px;
+}
+
+.cosplay{
+    margin-top: 10rem;
+    padding: 10px;
+    width: 200px;
+}
+
+.container{
+    height: 286vh;
+}
+
+.imagens {
+    display: flex;
+    flex-wrap: wrap; /* This allows wrapping of items if needed */
+    gap: 10px; /* Space between items */
+}
+figure{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.legenda{
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+@media only screen and (max-width: 767px) {
+    .logo{
+        font-size: 30px;
+        margin-bottom: 10px;
+        margin-left: 26px;
+    }
+
+    .navegacao a{
+        font-size: 15px;
+        margin: 0 10px;
+    }
+    .navegacao{
+        margin: auto;
+    }
+
+    header{
+        top: 0;
+        display: grid;
+        justify-content: center;
+    }
+    .botao-imagem{
+        margin: 160px auto auto 90px;
+    }
+    .botao-mensagem{
+        margin: 100px auto auto 90px;
+    }
+    .anagrama{
+        width: 200px;
+    }
+    .cosplay{
+        width: 125px;
+        margin-left: 2rem;
+        margin-top: 5rem;
+    }
+    .make{
+        width: 190px;
+        margin-left: 2rem;
+        margin-top: 5rem;
+    }
+    .palavras{
+        width: 207px;
+    }
+    .container{
+        height: 169vh;
+    }
+}
