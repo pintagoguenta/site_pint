@@ -100,7 +100,9 @@ header{
     border: 2px solid #fff;
     color: #000;
 }
-
+footer h5{
+    font-family: 'Poppins';
+}
 @media only screen and (max-width: 767px) {
     .logo{
         font-size: 30px;
